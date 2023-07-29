@@ -2,12 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #181830;
-  color: #fff;
+  background-color: #94f2d3;
+  color: #000000;
 }
 
 nav {
-  background-color: #181830;
+  background-color: #94f2d3;
   padding: 10px;
 }
 
@@ -24,7 +24,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -37,6 +37,7 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  letter-spacing: 100px;
 }
 
 main {
@@ -71,3 +72,14 @@ button {
 button:hover {
   background-color: #420484;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#0a0a17 ;
+  color: white;
+  text-align: center;
+}
+
